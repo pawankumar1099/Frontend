@@ -21,12 +21,24 @@ a = (5 == "5");  // true (string is coerced to number)
 
 b = (5 === "5"); // false (no coercion, different types
 
+-----for-of loop----
+let arr = [1,2,3,4,5];
+
+for iteration over arrays use for-of loop
+
+for(let num of arr){
+    console.log(num);
+}
+
+-----falsy values in JavaScript:-----
+false
+0   
+""  (empty string)
+null
+undefined
+NaN
+
 */
 
-// if(0){
-//     console.log("hello");
-    
-// }else{
-//     console.log("bye");
-    
-// }
+let arr = [1,2,3,4,5];
+
