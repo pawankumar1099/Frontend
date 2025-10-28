@@ -83,10 +83,10 @@ console.log(sum(1,2,3,4,5,6,7,8,9,10));
 
 */
 
-const calculator =function (val1,val2,operation){
-    switch(operation){
-        case "add": console.log(val1+val2);
-        
-    }
-
+const greet =  function () {
+  console.log("Hello, world!");
 }
+greet(); 
+
+
+
