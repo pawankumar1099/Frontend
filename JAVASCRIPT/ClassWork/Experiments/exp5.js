@@ -28,12 +28,12 @@
 /*       Task 3      */
 
 
-const val  = prompt("Please Enter Your Age: "); 
+// const val  = prompt("Please Enter Your Age: "); 
 
-console.log(Number(val));
+// console.log(Number(val));
 
 
-document.write(`<h1> Type: ${typeof Number(val)}</h1>`)
+// document.write(`<h1> Type: ${typeof Number(val)}</h1>`)
 
 // scope , scope chain, call stack ,execution context, TDZ, hoisting, closure
 
@@ -42,3 +42,5 @@ document.write(`<h1> Type: ${typeof Number(val)}</h1>`)
         
         setTime, setInterval, Async Js, MicroTask Queue
 */
+
+

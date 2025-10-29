@@ -81,12 +81,59 @@ const sum = function(a,b,...rest) {
 }
 console.log(sum(1,2,3,4,5,6,7,8,9,10));
 
-*/
+
 
 const greet =  function () {
   console.log("Hello, world!");
 }
 greet(); 
+
+
+
+const arr = [1, 2, 3, "abc", undefined, NaN, null,false]
+
+
+const a = new Array(1,2,3,4,5,6);
+
+-combining two Arrys use arr1.concat(arr2)
+
+-arr.push() method is used to push element at last
+
+-use arr.indexOf(element) to find the index
+
+-arr.sort((a,b) => {
+
+    return a-b;
+})
+
+-  arr.map( (n)=> n*2)     (returns a new array)
+
+- arr.filter((num) => num%2 === 0 )
+
+
+
+
+
+*/
+const a = new Array(8);
+const b = [2,4,7,8,4,7,9]
+console.log(b.pop());
+console.log(b);
+console.log(b.push(0));
+console.log(b);
+console.log(b.shift(9));
+console.log(b);
+console.log(b.unshift());
+console.log(b);
+
+
+
+
+
+
+
+
+
 
 
 
