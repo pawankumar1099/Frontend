@@ -112,9 +112,6 @@ const a = new Array(1,2,3,4,5,6);
 
 
 
-
-
-*/
 const a = new Array(8);
 const b = [2,4,7,8,4,7,9]
 console.log(b.pop());
@@ -125,6 +122,34 @@ console.log(b.shift(9));
 console.log(b);
 console.log(b.unshift());
 console.log(b);
+
+
+eloqent
+
+const l = arr.find((num) => num % 2 ===0)
+
+console.log(l);
+
+*/
+
+
+const arr = [4,6,3,6,9,2,5,7]
+
+const newArr = arr.filter((num) =>{
+
+    for(let i=2;i*i<num;i++){
+        if(num%i==0){
+            break;
+        }
+    }
+    
+
+})
+
+console.log(newArr);
+
+
+
 
 
 
